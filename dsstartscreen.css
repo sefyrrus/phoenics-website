@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Tamba Sans";
-    src: url(/4.0\ \(Pre-Test\)/assets/fonts/TambaSansDemo-Bold.otf);
+    src: url(TambaSansDemo-Bold.otf);
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 #bg {
-    background-image: url(/4.0\ \(Pre-Test\)/assets/images/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
 
     background-position:  center;
