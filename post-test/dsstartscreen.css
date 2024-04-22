@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Tamba Sans";
-    src: url(/assets/fonts/TambaSansDemo-Bold.otf);
+    src: url(TambaSansDemo-Bold.otf);
+}
+
+@font-face {
+    font-family: "Aladin";
+    src: url(Aladin-Regular.ttf);
 }
 
 body {
@@ -15,7 +20,7 @@ body {
 }
 
 #bg {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
 
     background-position:  center;
