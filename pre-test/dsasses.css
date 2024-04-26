@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Tamba Sans";
-    src: url(/assets/fonts/TambaSansDemo-Bold.otf);
+    src: url(TambaSansDemo-Bold.otf);
+}
+
+@font-face {
+    font-family: "Aladin";
+    src: url(Aladin-Regular.ttf);
 }
 
 @keyframes appear {
@@ -25,7 +30,7 @@ body {
 }
 
 #bg {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
 
     background-position:  center;
@@ -104,7 +109,7 @@ body {
     position: relative;
     top: 20px;
 
-    padding: 10px 50px;
+    padding: 5px 20px;
 
     border-radius: 10px;
     border-style: none;
@@ -149,3 +154,8 @@ body {
 
     animation: appear 3s forwards;
 }
+
+#say:hover {
+    padding: 10px 50px;
+}
+

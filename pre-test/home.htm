@@ -17,15 +17,23 @@
     <div id="bg"></div>
 
     <div id="con">
-        <h1 id="phoenics" style="text-align:center;"> Phoenics </h1>
+        
+        <h1 class="phoenics" style="text-align:center;"> Phoenics 
+        <br>
 
-        <p>A simple website to test your pronunciation skills by the power of phonemes. </p>
+        <p id="joke">phonetics + phoenix</p>
+        </h1>
+       
 
-        <button class="btn" onclick="document.location='mictest.htm'">Start !</button>
+        <p>A simple website to test your pronunciation skills by the power of <strong id="emphasis" onclick="document.location='phonemes.htm'" title="Click me to know more!">phonemes.</strong> </p>
+
+        <button class="btn" onclick="document.location='mictest.htm'" title="This is the pre-test!">Pre-test</button>
+
+        <button id="post" onclick="document.location='/post-test/mictest.htm', unableToClick(event)" title="This is the post-test! Locked until the pre-test is done." disabled>Post-test</button>
 
         <br> <br>
 
-        <button id="guides" onclick="document.location='/guides/g-lobby.htm'" disabled>Guides</button>
+        <button id="guides" onclick="document.location='/guides/g-lobby.htm', unableToClick(event)" title="The key to your phoneme journey!" disabled>Guides</button>
     </div>
 
 
