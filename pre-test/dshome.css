@@ -43,7 +43,7 @@ body {
 }
 
     
-.phoenics{
+.phoenics {
     color: rgba(33, 31, 31, 1);
     font-family: 'Aladin';  /* The 'Aladin' font can be inputted in any letter format, either lowercase or uppercase. */
     font-style: normal;
@@ -57,7 +57,6 @@ body {
     margin-bottom: 10px;
     position: relative;
 
-    border-style: solid;
     border-radius: 10px;
 
     padding: 10px;
@@ -95,6 +94,17 @@ p {
      margin-left: 3;
 }
 
+.btn2 {
+    font-size: 2em;
+    padding: 5px 10px 5px 10px;
+     font-family: 'Aladin';
+     letter-spacing: 2px;
+     background:rgba(205, 53, 53, 1);;
+     color: white;
+     border-radius: .5rem;
+     transition-duration: 1s;
+}
+
 #post {
     font-size: 2em;
     padding: 5px 10px 5px 10px;
@@ -120,7 +130,7 @@ p {
 }
 
 #guides{
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 5px 10px 5px 10px;
     
      font-family: 'aladin';
@@ -163,6 +173,11 @@ p {
 .btn:hover {
     border: 2px rgb(137, 27, 27);
     box-shadow:rgb(137, 27, 27) 5px 5px, rgb(238, 83, 83) 10px 10px, rgb(244, 162, 162) 15px 15px;
+}
+
+.btn2:hover {
+    border: 2px rgb(137, 27, 27);
+    box-shadow:rgb(30, 26, 26) 5px 5px, rgb(70, 68, 68) 10px 10px, rgb(158, 158, 158) 15px 15px;
 }
 
 #back:hover {
