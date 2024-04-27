@@ -43,7 +43,7 @@ body {
 }
 
     
-.phoenics{
+.phoenics, h1{
     color: rgba(33, 31, 31, 1);
     font-family: 'Aladin';  /* The 'Aladin' font can be inputted in any letter format, either lowercase or uppercase. */
     font-style: normal;
