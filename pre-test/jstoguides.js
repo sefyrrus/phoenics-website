@@ -9,3 +9,23 @@ function unableToClick(event) {
     }
 
 }
+
+const easterEggs = [
+    "phonetics + phoenix",
+    "donald greetings!",
+    "a website made by 12ESTEM-C7.",
+    "the secret ingredient is puyat.",
+    "every syllable counts.",
+    "don't cheat por favor.",
+
+]
+
+function getRandomMessage() {
+    return easterEggs[Math.floor(Math.random() * easterEggs.length)];
+  }
+
+  // Set a random message on hover
+  document.querySelector('.jokeds').addEventListener('mouseenter', function() {
+    document.getElementById('joke').textContent = getRandomMessage();
+
+  });

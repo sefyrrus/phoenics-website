@@ -141,7 +141,7 @@ p {
      transition-duration: 1s;
 }
 
-#joke {
+.jokeds {
     font-size: 30px;
 
     color: white;
@@ -201,11 +201,11 @@ p {
 
 .phoenics:hover {
     height: 140px;
-    width: 400px;
+    width: 600px;
 
 }
 
-#joke:hover {
+.jokeds:hover {
     opacity: 1;
 }
 
